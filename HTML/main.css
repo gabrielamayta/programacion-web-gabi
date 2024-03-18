@@ -1,0 +1,14 @@
+/*esto es un comentario*/
+/*para poder agregar caracteristicas vamos a crear clases*/
+/*clase*/
+
+
+
+.encabezado {
+    text-align: center;
+} 
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
