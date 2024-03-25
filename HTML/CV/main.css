@@ -1,0 +1,27 @@
+
+.encabezado {
+    text-align: center;
+} 
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+ .mainContent{
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+/*.colorDeFondo {
+}*/
+.caja-titulo{
+    width: 35%;
+}
+.caja-titulo{
+    width: 90%;
+    background-color: darkgreen;
+    color: chartreuse;
+}
+.imagen-cv {
+    width: 200px;
+}
