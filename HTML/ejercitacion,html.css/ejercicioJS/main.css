@@ -1,0 +1,19 @@
+.alineado {
+  text-align: center;
+}
+.borde {
+  border: 2px solid rgb(130, 192, 72);
+  border-radius: 40px;
+  background-color: rgb(37, 182, 134);
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  color: rgb(208, 226, 220);
+}
+
+.caja {
+  display: flex;
+  justify-content: center;
+}
