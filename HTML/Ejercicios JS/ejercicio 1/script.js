@@ -22,8 +22,3 @@ function incrementarNumero() {
   contador = contador + 1;
   document.getElementById("numero").textContent = contador;
 }
-
-<h1>Calculadora de sumas</h1>
-<label for="number1" >numero1</label> 
-
-}

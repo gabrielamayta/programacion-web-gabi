@@ -1,0 +1,66 @@
+.alineadorDeFoto {
+  display: grid;
+  /*grid-template-columns: 250px 250px 250px;*/
+  /*grid-template-columns: repeat(3, 250px_);*/
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: auto;
+  gap: 20px;
+}
+
+.grilla {
+  display: grid;
+  /*grid-template-columns: 250px, 250px, 250px;*/
+  /*grid-template-columns: repeat(3, 250px);*/
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /*sgrid-template-rows: 350px*/
+  grid-auto-rows: auto;
+  gap: 20px;
+}
+
+.Caja-Bulbasaur {
+  background-color: rgb(78, 211, 89);
+  border-radius: 10px;
+}
+
+.Caja-Charmander {
+  background-color: rgb(212, 120, 66);
+  border-radius: 10px;
+}
+
+.Caja-Jigglypuff {
+  background-color: rgb(226, 130, 191);
+  border-radius: 10px;
+}
+
+.Caja-Meowth {
+  background-color: rgb(223, 215, 110);
+  border-radius: 10px;
+}
+
+.Caja-Mew {
+  background-color: rgb(202, 152, 187);
+  border-radius: 10px;
+}
+
+.Caja-Pikachu {
+  background-color: rgb(236, 218, 55);
+  border-radius: 10px;
+}
+
+.Caja-Piplup {
+  background-color: rgb(78, 211, 204);
+  border-radius: 10px;
+}
+
+.Caja-Squirtle {
+  background-color: rgb(69, 183, 228);
+  border-radius: 10px;
+}
+
+.Caja-Vulpix {
+  background-color: rgb(102, 68, 16);
+  border-radius: 10px;
+}
+
+.nombrePokemon {
+}
