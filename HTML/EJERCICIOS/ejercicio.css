@@ -1,0 +1,14 @@
+.encabezado {
+  text-align: left;
+  background-color: rgb(175, 75, 196);
+}
+
+.img {
+  border-radius: 20px;
+  border: 30px;
+  background-color: black;
+  width: 300px;
+}
+letra {
+  margin-left: 20px;
+}
