@@ -1,9 +1,9 @@
-import { MiPrimerComponent } from "./components/MiPrimerComponent/MiPrimerComponent";
+import GetPosts from "./components/MiPrimerComponent/GetPosts";
 
 function App() {
   return (
     <>
-      <MiPrimerComponent name={"gabi"} lastName={"jjjj"} />
+      <GetPosts />
     </>
   );
 }
