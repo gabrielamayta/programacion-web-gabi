@@ -1,9 +1,9 @@
-import GetPosts from "./components/MiPrimerComponent/GetPosts";
+import CurrencyConverter from "./components/api/api";
 
 function App() {
   return (
     <>
-      <GetPosts />
+      <CurrencyConverter />
     </>
   );
 }
