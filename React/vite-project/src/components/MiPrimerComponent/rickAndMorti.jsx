@@ -1,29 +1,30 @@
-import { useEffect, useState } from "react";
+import React, { useState, useEffect } from "React";
+import api from "api";
 
-const RickAndMortyCharacters = () => {
-  // Estado para almacenar los datos de los personajes
+const CharacterList = () => {
   const [characters, setCharacters] = useState([]);
 
   useEffect(() => {
-    fetch("https://rickandmortyapi.com/api/character")
-      .then((response) => response.json())
-      .then((responseData) => setData(responseData));
+    api
+      .get("https://rickandmortyapi.com/api/character")
+      .then((response) => {
+        setCharacters(response.data.results);
+      })
+      .catch((error) => {
+        console.error("Hubo un error en los caracteres", error);
+      });
   }, []);
 
   return (
-    <>
-      {!data ? (
-        <>loading... </>
-      ) : (
-        <>
-          <h2>
-            Objeto Title:
-            {data.title}
-            id:{data.id}
-          </h2>
-          <p>body:{data.body}</p>
-        </>
-      )}
-    </>
+    <div>
+      <h1>Rick and Morty Characters</h1>
+      <ul>
+        {characters.map((character) => (
+          <li key={character.id}>{character.name}</li>
+        ))}
+      </ul>
+    </div>
   );
 };
+
+export default CharacterList;
